@@ -1,13 +1,15 @@
-exemplos praticos: como criar e cosultar documentos no MOngoD, … preciso selecionar uma coleÁ„o (queÈ similiar a uma tabela 
+exemplos praticos: como criar e cosultar documentos no MOngoD, √â preciso selecionar uma cole√ß√£o (que√© similiar a uma tabela 
 em banco de dados reelacionais) e inserir os dados em formato JSon. por exemplo, o seguinte comando criar um novo documento 
-na coleÁ„o "clientes": 
+na cole√ß√£o "clientes": 
 
-db.cliente.isertone({nome:"jo„o", idade: 30, endereco: {rua:"Rua A",, numero: 123}})
+db.cliente.isertone({nome:"jo√£o", idade: 30, endereco: {rua:"Rua A",, numero: 123}})
 ===========================================================================================================================
 
-para consulta documento no MOngoDB, È possivel utilizar o mentÛdo find().
-Significado "Encontrar" por exemplo, o seguinte comando retorna todos os documentos na coleÁ„o "cliente"
+para consulta documento no MOngoDB, √© possivel utilizar o ment√≥do find().
+Significado "Encontrar" por exemplo, o seguinte comando retorna todos os documentos na cole√ß√£o "cliente"
 
 db.clientes.find()
 ===========================================================================================================================
+A bordagem de banco de dados coluna √© utilizar para Armazenar dados em colunas, em vez de linhas. cada coluna representa um tipo 
+da dados  e √© otimizada para consultas especificas. essas abordagem √© indicada para dados que exigemconsultas
 
