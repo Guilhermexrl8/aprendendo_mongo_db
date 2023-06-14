@@ -1,0 +1,13 @@
+exemplos praticos: como criar e cosultar documentos no MOngoD, É preciso selecionar uma coleção (queé similiar a uma tabela 
+em banco de dados reelacionais) e inserir os dados em formato JSon. por exemplo, o seguinte comando criar um novo documento 
+na coleção "clientes": 
+
+db.cliente.isertone({nome:"joão", idade: 30, endereco: {rua:"Rua A",, numero: 123}})
+===========================================================================================================================
+
+para consulta documento no MOngoDB, é possivel utilizar o mentódo find().
+Significado "Encontrar" por exemplo, o seguinte comando retorna todos os documentos na coleção "cliente"
+
+db.clientes.find()
+===========================================================================================================================
+
